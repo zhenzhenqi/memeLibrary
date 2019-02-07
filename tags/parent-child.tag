@@ -1,5 +1,5 @@
 <parent-child>
-	<div class="bookMaker">
+	<div class="memeMaker">
 		<!-- ref or reference attribute is a quick way to "bookmark" an element so we can quickly access it in javascript later. -->
 		<!-- E.g. HTML <img ref="xxx"/>  -->
 		<!-- E.g. JS   this.refs.xxx points to the img tag prior -->
