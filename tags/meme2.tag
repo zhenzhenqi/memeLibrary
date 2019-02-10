@@ -1,10 +1,14 @@
 <meme2>
-	<div class="egg-frame" each="{item in items}">
-		<img src={item.URL}/>
-		<p>{item.caption}</p>
+	<div class="egg-frame" each="{items}">
+	<!-- <div class="egg-frame" each="{items}"> -->
+		<!-- <img src={item.URL}/-->
+		<img src={URL}/>
+		<p>{caption}</p>
 	</div>
 
+
 	<script type="text/javascript">
+		
 		this.items = [
 			{
 				URL: "https://proxy.topixcdn.com/ipicimg/PKACK3N1SJ7P27PO-cp0x0x1328x664-fill810x415x",
@@ -23,6 +27,7 @@
 		:scope {
 			display: block;
 		}
+
 		.egg-frame {
 			background-color: yellow;
 			width: 30%;

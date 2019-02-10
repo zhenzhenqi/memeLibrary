@@ -35,6 +35,7 @@
 
 		updateDescription(event) {
 			console.log(event);
+			<!-- https://developer.mozilla.org/en-US/docs/Web/API/Event/target -->
 			this.description = event.target.value;
 		}
 	</script>
